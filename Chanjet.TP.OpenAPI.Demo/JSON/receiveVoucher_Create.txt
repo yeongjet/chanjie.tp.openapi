@@ -1,0 +1,56 @@
+﻿{
+    
+	dto: {
+        
+		ExternalCode: "外部单据",
+        
+		VoucherDate: "2016-05-31",
+        
+		Partner: {
+            
+			Code: "LS"
+		
+        },
+        
+		Currency: {
+            
+			Code: "RMB"
+		
+        },
+        
+		ExchangeRate: 1.0000,
+        
+		Memo: "测试OpenAPI",
+        
+		ArapMultiSettleDetails: [
+            {
+                
+			SettleStyle: {
+                    
+				Code: "1"
+			
+                },
+                
+			BankAccount: {
+                    
+				Name: "现金"
+			
+                },
+                
+			OrigAmount: 3000
+		
+            }
+        ],
+        
+		Details: [
+            {
+                
+			VoucherCode: "SA-2016-05-0002",
+                        VoucherType:{Code:"SA04"}
+		
+            }
+        ]
+	
+    }
+
+}

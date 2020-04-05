@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <appkey>fa50f9d4-1551-43b4-b070-3d27eaf07c4f</appkey>
+  <appsecret>ysnbmo</appsecret>
+  <serverUrl>http://192.168.50.163:8890/tplus/api/v2/</serverUrl>
+  <userName>15322094709</userName>
+  <userPwd>qwe123</userPwd>
+  <accNum>001</accNum>
+  <privateKeyPath>./key/cjet_pri.pem</privateKeyPath>
+  <orgId></orgId>
+</root>

@@ -1,0 +1,32 @@
+﻿'',基础信息接口        ,BaseInfo
+BaseInfo,8.2.1 存货查询         ,Inventory/Query  
+BaseInfo,  8.2.3 自由项类型查询 ,freeItemType/Query
+BaseInfo,  8.2.4 自由项查询     ,freeItem/Query
+BaseInfo,  8.2.5 仓库档案查询   ,warehouse/Query
+BaseInfo,  8.2.6 条码对照查询   ,barCode/Query
+'',8.3 供应链接口         ,SCM
+SCM,  8.3.0 销售订单      ,saleOrder
+saleOrder,    8.3.0.1 创建      ,saleOrder/Create
+saleOrder,    8.3.0.2 批量创建  ,saleOrder/CreateBatch
+
+SCM,8.3.2 其它出库单    ,OtherOutVoucher
+OtherOutVoucher,    8.3.2.1 创建     ,saleDelivery/Create
+OtherOutVoucher,    8.3.2.2 批量创建 ,saleDelivery/CreateBatch
+
+SCM,  8.3.1 销货单        ,saleDelivery
+saleDelivery,    8.3.1.1 创建     ,saleDelivery/Create
+saleDelivery,    8.3.1.2 批量创建 ,saleDelivery/CreateBatch
+
+SCM, 8.3.2 其它出库单   ,otherDispatch
+otherDispatch,8.3.2.1 创建     ,otherDispatch/Create
+otherDispatch,8.3.2.2 批量创建 ,otherDispatch/CreateBatch
+
+SCM8.3.3 现存量       ,currentStock/Query
+
+'',8.4 财务接口         ,GL
+GL,  8.4.1 凭证         ,GLDOC
+GLDOC,    8.4.1.1 创建     ,doc/Create
+GLDOC,    8.4.1.2 批量创建 ,doc/CreateBatch
+'',8.5 业务往来接口     ,ARAP
+ARAP, 8.5.1 收款单       ,receiveVoucher
+receiveVoucher,      8.5.1.1 创建   ,receiveVoucher/Create
